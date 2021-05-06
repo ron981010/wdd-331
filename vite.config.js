@@ -1,6 +1,6 @@
-import eslint from '@rollup/plugin-eslint'
+// import eslint from '@rollup/plugin-eslint';
 
-const { resolve } = require('path')
+const { resolve } = require('path');
 
 export default {
     input: 'main.js',
@@ -13,9 +13,9 @@ export default {
             },
         },
     },
-    plugins: [
-        eslint({
-            include: './assignments/**/*.+(js|jsx|ts|tsx|vue)',
-        }),
-    ],
-}
+    // plugins: [
+    //     eslint({
+    //         include: './assignments/**/*.+(js|jsx|ts|tsx|vue)',
+    //     }),
+    // ],
+};

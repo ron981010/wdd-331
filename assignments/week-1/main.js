@@ -1,3 +1,3 @@
-import './main.scss'
+import './main.scss';
 
-console.log('I work!')
+console.log('I work!');
